@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+    cursor: pointer;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+}
+#header{
+    width: 100%;
+    padding:0px 30px ;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#header>a>img{
+    width: 50px;
+    height: 30px;
+}
+#menu{
+    list-style: none;
+    display: flex;
+}
+#menu .item a{
+    color: #626a67;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.actions .item>img{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#banner{
+    display: flex;
+    margin-top: 30px;
+    background-image: url('../assets/banner.png');
+    width: 100%;
+    height: 60vh;
+}
+.div1Banner{
+    width: 50%;
+    margin-left: 85px;
+    padding-top: 50px;
+    color: rgba(228, 224, 212, 1);
+}
+.div1Banner h2>span{
+    height: 70px;   
+    font-size: 30px;
+}
+.div1Banner>p{
+    font-size: 11px;
+}
+.div1Banner>button{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 110px;
+    height: 23px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-size: 8px;
+}
+#buy:hover{
+    background-color: rgb(224, 151, 61);
+    transition: 0.3s;
+}
+.div2Banner{
+    width: 30%;
+    margin-left: 100px;
+}
+
+.div2Banner #img1,#img3{
+    width: 50px;
+    height: 160px;
+    margin-bottom: 20px;
+    animation: animation1 3s infinite linear;
+    animation-delay: 0.5s;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.div2Banner #img2{
+    width: 50px;
+    height: 200px;
+    margin-top: 25px;  
+    animation: animation1 3s infinite linear;
+    animation-delay: 1s;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.to_bottom{
+    position:absolute;
+    bottom:65px;
+    left:50%;
+    transform:translateX(-50%);
+}
+.to_bottom a>img{
+    width: 40px;
+    height: 40px;
+}
+#product{
+    margin-top: 78px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    align-items: center;
+    width: 720px;
+    height: 510px;
+}
+#product>h2{
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    color: #626a67;
+}
+div.prod{
+    width: 160px;
+    height:205px;
+    background-color: #362f2f;
+    margin-bottom: 12px;  
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+}
+.list_product .prod img.sp{
+    width: 145px;
+    height: 95px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.starrr span>img{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.NamePr{
+    font-size: 12px;
+    color: white;
+}
+.desc{
+    font-size: 10px;
+    margin-top: 3px;
+    color: #626a67;
+}
+.price{
+    color: red;
+    margin-top: 10px;
+    font-size: 12px;
+}
+#page>button{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    color: aliceblue;
+    border: none;
+    background-color: #362f2f;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 9px;
+    align-items: center;
+}
+#page>button:hover{
+    background-color: gold;
+    transition: 0.5s;
+}
+.sale{
+    width: 100%;
+    height: 180px;
+}
+#sale .sal{
+    width: 50%;
+    float: left;
+    height: 180px;
+    background-color: #362f2f;
+    text-align: center; 
+}
+.sale .image{
+    width: 50%;
+    float: left;
+    height: 180px;
+}
+#sale .sal>h2{
+    padding-left: 0px;
+    margin-top: 12%;
+    color: whitesmoke;
+    font-size: 35px;
+}
+#sale .sal>h2>span{
+    color: rgb(241, 174, 3);
+    font-size: 60px;
+}
+
+.image>img{
+    width: 50%;
+    height: 180px;
+}
+#comment>h2{
+    text-align: center;
+    color: #626a67;
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+}
+#comment .content{
+    width: 57%;
+    text-align: center;
+    height: 250px;
+    background-color: #362f2f;
+    margin-left: 185px;
+    border-radius: 15px;
+    
+}
+.avatar{
+    text-align: center;
+    margin-top: 15px;
+}
+.avatar>img{
+    width: 50px;
+    height: 50px;
+}
+.star{
+    margin-top: 20px;
+}
+.star span>img{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.nameCmt{
+    font-size: 15px;
+    color: aliceblue;
+}
+.text >p{
+    color: aliceblue;
+    font-size: 10px;
+    margin-top: 15px;
+}
+#end{
+    width: 100%;
+    height: 180px;  
+    background-color: #362f2f;
+}
+
+.left{
+    width: 33%;
+    height: 180px;
+    float: left;
+    
+    text-align: center;
+}
+.left>img{
+    width: 60px;
+    height: 50px;
+    margin-top: 30px;
+}
+.left>p{
+    margin-top: 10px;
+    color:whitesmoke ;
+    font-size: 12px;
+}
+.mid{
+    width: 33.33%;
+    height: 180px;
+    float: left;
+    
+    text-align: center;
+}
+.mid>h3{
+    margin-top: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.mid>ul{
+    margin-top: 10px;
+}
+.choose>a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding:  5px 5px 5px 5px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+.right{
+    width: 33.33%;
+    height: 180px;
+    float: left;
+    
+    text-align: center;
+}
+.right>h3{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.right>input{
+    margin-top: 15px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    background-color: #626a67;
+}
+.right>button{
+    margin-top: 15px;
+    background-color: #626a67;
+    border: none;
+    border-radius: 2px;
+    height: 18px;
+    width: 55px;
+}
+.right>button:hover{
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+@keyframes animation1 {
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
